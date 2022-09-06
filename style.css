@@ -17,10 +17,30 @@ html {
 }
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.menu:hover {
+  cursor: pointer;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-purple);
+  margin: -30px;
 }
 
-header {
+.menu {
+  all: unset;
   background-color: var(--clr-purple);
+  color: white;
+  width: 64px;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 h1 {
   color: white;
@@ -43,6 +63,10 @@ h2 {
 }
 .students-box {
   display: flex;
+
+  margin-bottom: 1.2rem;
+  border: solid 2px var(--clr-purple);
+  box-shadow: 5px 5px var(--clr-purple);
 }
 .profile {
   background-color: #6a1cc3;
