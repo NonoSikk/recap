@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap");
+
+:root {
+  --clr-purple: #6a1cc3;
+  --clr-dark: rgba(0, 0, 0, 0.6);
+  --clr-search: rgba(75, 20, 138, 0.38);
+  --clr-light: #8849cf;
+}
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: grey;
+  margin: auto;
+  max-width: 600px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+header {
+  background-color: var(--clr-purple);
+}
+h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+}
+.header_bottom {
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  fill: var(--clr-light);
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--clr-purple);
+}
+.fellows {
+  color: var(--clr-dark);
+}
+.students-box {
+  display: flex;
+}
+.profile {
+  background-color: #6a1cc3;
+  color: white;
+}
