@@ -61,6 +61,20 @@ h2 {
 .fellows {
   color: var(--clr-dark);
 }
+.search {
+  display: inline-flex;
+}
+select:hover {
+  cursor: pointer;
+}
+select {
+  border: solid 2px var(--clr-purple);
+}
+.sprites {
+  stroke: white;
+  background-color: var(--clr-purple);
+}
+
 .students-box {
   display: flex;
 
