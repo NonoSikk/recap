@@ -15,8 +15,8 @@
 
 <header>
     <div class="top">
-        <button class="menu" type="menu"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <button class="menu" type="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
@@ -27,7 +27,12 @@
         <svg class="svg-arrow" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
             <polygon points="0,0 50,100 100,0"></polygon>
         </svg>
+
+        <svg class="svg-shadow" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,0 50,100 100,0"></polygon>
+        </svg>
     </div>
+
 
 </header>
 
@@ -37,17 +42,17 @@
         <p class="fellows">Your fellow students</p>
         <div class="searchbar">
             <form>
-                <label for="search-field">Search</label>
+                <label class="searchtext" for="search-field">Search</label>
                 <input type="search" placeholder="Search for Students name">
-                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        viewBox="0 0 16 16">
-                        <path
+                <button class="magnifying" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg></button>
+                    </svg>
+                </button>
             </form>
         </div>
         <div class="dropdown">
-
             <label class="select" for="slct">
                 <select id="slct" required="required">
                     <option value="" disabled="disabled" selected="selected">Select option</option>
@@ -67,9 +72,7 @@
                     <option value="" disabled="disabled" selected="selected">Select option</option>
                     <option value="#">Full-Time</option>
                     <option value="#">Part-Time</option>
-
                 </select>
-
             </label>
             <svg class="sprites" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
@@ -86,10 +89,11 @@
                 viewBox="0 0 16 16">
                 <path
                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                <div>
-                    <p> Dmitry Kolesnikov</p>
-                    <a href="https://github.com/Dimi87">github.com/Dimi87</a>
-                </div>
+            </svg>
+            <div class="card">
+                <p class="names"> Dmitry Kolesnikov</p>
+                <a class="git-link" href="https://github.com/Dimi87">github.com/Dimi87</a>
+            </div>
 
         </section>
 
@@ -101,47 +105,47 @@
                 <path
                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
             </svg>
-            <div>
-                <p>Justust Siebert</p>
-                <a href="https://github.com/justussiebert"> github.com/justussiebert</a>
-            </div>
-
-        </section>
-
-        <section class="students-box">
-            <svg class="profile xmlns=" http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
-                class="bi bi-person" viewBox="0 0 16 16">
-                <path
-                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-            </svg>
-            <div>
-                <p>Manuel Hohenadl</p>
-                <a href="https://github.com/manoo89">github.com/manoo89</a>
+            <div class="card">
+                <p class="names">Justust Siebert</p>
+                <a class="git-link" href="https://github.com/justussiebert"> github.com/justussiebert</a>
             </div>
 
         </section>
 
         <section class="students-box">
             <svg class="profile" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
-                class="bi bi-person" viewBox="0 0 16 16">
+                viewBox="0 0 16 16">
                 <path
                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
             </svg>
-            <div>
-                <p>Ovidiu Goanta</p>
-                <a href="https://github.com/Goanta-Ovidiu">github.com/Goanta-Ovidiu</a>
+            <div class="card">
+                <p class="names">Manuel Hohenadl</p>
+                <a class="git-link" href="https://github.com/manoo89">github.com/manoo89</a>
+            </div>
+
+        </section>
+
+        <section class="students-box">
+            <svg class="profile" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg>
+            <div class="card">
+                <p class="names">Ovidiu Goanta</p>
+                <a class="git-link" href="https://github.com/Goanta-Ovidiu">github.com/Goanta-Ovidiu</a>
             </div>
         </section>
 
         <section class="students-box">
             <svg class="profile" xmlns="http://www.w3.org/2000/svg" width="39" height="39" fill="currentColor"
-                class="bi bi-person" viewBox="0 0 16 16">
+                viewBox="0 0 16 16">
                 <path
                     d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
             </svg>
-            <div>
-                <p> Patricia Prager</p>
-                <a href="https://github.com/patprager">github.com/patprager</a>
+            <div class="card">
+                <p class="names"> Patricia Prager</p>
+                <a class="git-link" href="https://github.com/patprager">github.com/patprager</a>
             </div>
         </section>
 
